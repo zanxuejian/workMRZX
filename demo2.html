@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>末日之下</title>
+    <style>
+        #left {
+                background-color:black;
+                height:680px;
+                width:300px;
+                float:left;
+        }
+        #right {
+                background-color:black;
+                height:680px;
+                width:300px;
+                float:right;
+        }
+        #section{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;;
+            background:mediumturquoise;
+            text-align: center;
+            padding: 5px;
+            font-size: 42px;
+            font-family:monospace;
+            color:midnightblue;
+        }
+        #pa{
+            font-size: 28px;
+            color: indigo;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #pb{
+                font-style:italic;
+                color: indigo;
+                font-size:18px;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        #button{
+                background-color: #008CBA;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 30px;
+                margin: 4px 2px;
+                cursor: pointer;
+        }
+        .box {
+            width: 903px;
+            height: 300px;
+            overflow: hidden;
+        }
+        .box details {
+            font-size: 19px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: -300px;
+            height: 300px;
+            background:rosybrown;
+        }
+        .box details:first-child {
+            margin-top: 0;
+        }
+        .box summary {
+            float: left;
+            width: 50%;
+            height: 40px;
+            background:sandybrown;
+            line-height: 40px;
+            cursor: pointer;
+        }
+        .box details > div {
+            float: left;
+            width: 903px;
+            height: 300px;
+            margin-top: -40px;
+            background:slategrey;
+        }
+        .box details + div {
+            margin-top: -200px;
+            padding: 0.5em;
+        }
+        .box p {
+            font-size: 25px;
+            color:firebrick;
+            margin: 0 auto 0.5em;
+            text-indent: 2em;
+        }
+    </style>
+    <script>
+            function myFunction(){
+            var y;
+            var person=prompt("请输入你的用户名","Rob-001");
+            if (person!=null && person!=""){
+                    y="你好 " + person + "! 今天又是新的一天！";
+                    document.getElementById("demo").innerHTML=y;
+                    }
+            }
+    </script>
+    <script type="application/javascript">
+        function clickMeEvent(obj)
+        {
+        if (obj.innerHTML=="点击继续<br><br>9102年，当初遥不可及的仿生机器人也已经实现的。但这先进的世界却敌不过一场灾难。<br><br>似乎这个星球只剩下了你一个人。<br><br>依靠着先进设备，你每天勉强维持着生活，但依然坚持寻找。<br><br>因为你坚信，<br>你不是孤单一人。<br><br>忽然，你收到了求救信号，你决定：")
+            {
+            obj.style.display="none";
+            }
+        else if (obj.innerHTML=="点击继续<br><br>9102年，当初遥不可及的仿生机器人也已经实现的。但这先进的世界却敌不过一场灾难。<br><br>似乎这个星球只剩下了你一个人。<br><br>依靠着先进设备，你每天勉强维持着生活，但依然坚持寻找。")
+            {
+            obj.innerHTML=obj.innerHTML+"<br><br>因为你坚信，<br>你不是孤单一人。<br><br>忽然，你收到了求救信号，你决定：";		
+            }
+        else if (obj.innerHTML=="点击继续<br><br>9102年，当初遥不可及的仿生机器人也已经实现的。但这先进的世界却敌不过一场灾难。<br><br>似乎这个星球只剩下了你一个人。")
+            {
+            obj.innerHTML=obj.innerHTML+"<br><br>依靠着先进设备，你每天勉强维持着生活，但依然坚持寻找。";		
+            }
+        else if (obj.innerHTML=="点击继续<br><br>9102年，当初遥不可及的仿生机器人也已经实现的。但这先进的世界却敌不过一场灾难。")
+            {
+            obj.innerHTML=obj.innerHTML+"<br><br>似乎这个星球只剩下了你一个人。";		
+            }
+        else
+            {
+            obj.innerHTML=obj.innerHTML+"<br><br>9102年，当初遥不可及的仿生机器人也已经实现的。但这先进的世界却敌不过一场灾难。";
+            }
+        }
+        </script>
+</head>
+<body onpageshow="myFunction()" background="bg.png">
+
+<div id="section">末日之下</div>
+        
+<div id="left">
+</div>           
+<div id="right">
+</div>
+<div id="pa">
+        <p id="demo"></p>
+</div>
+
+<div id="pb" onclick="clickMeEvent(this)">点击继续</div>
+
+<div class="box">
+    <details>
+        <summary>不予理睬</summary>
+        <div>
+            <details>
+                <summary>远离声源，向其他地方走去</summary>
+                <div>
+                    <p>你就在这漫无边际的世界中，不断徘徊，孤单一人。</p>
+                    <p>一天，一天，又一天，</p>
+                    <p>仿佛陷入了轮回的空间中，再也无法脱身，</p>
+                    <p>又如机器一般，机械地将一天，重复过了无数多遍......</p>
+                </div>
+            </details>
+            <details>
+                <summary>向声源处靠近</summary>
+                <div>
+                        <details>
+                            <summary>给与还击</summary>
+                            <div>
+                                    <details>
+                                            <summary>补他一枪</summary>
+                                                <div>
+                                                    <p>你觉得自己有些残忍，同时也十分愧疚。</p>
+                                                    <p>好不容易能够有人陪自己，却被自己...</p>
+                                                    <p>就这样</p>
+                                                    <p>你又仿佛陷入了轮回的空间中，再也无法脱身，</p>
+                                                    <p>又如机器一般，机械地将一天，重复过了无数多遍......</p>
+                                                </div>
+                                    </details>
+                                    <details>
+                                            <summary>上前查看</summary>
+                                                <div>
+                                                    <p>果然，这个世界只有一人了。</p>
+                                                    <p>因为他是：</p>
+                                                    <p>仿生机器人！</p>
+                                                </div>
+                                    </details>
+                                    <div>
+                                            你用你身上的先进装备跟他打了起来。<br>
+                                            但对方也不是吃素的。<br>
+                                            你们扭打到了一起。<br>
+                                            最终，你抓住机会，打中了他一枪。<br>
+                                            他已倒地不起，你决定：<br>
+                                        </div>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>只是防守</summary>
+                            <div>
+                                <p>在他的猛烈进攻下，</p>
+                                <p>你最终败下阵来，</p>
+                                <p>迷糊中，他朝你走来，</p>
+                                <p>打开了你的身体，</p>
+                                <p>似乎拿出了什么。</p>
+                                <p>随着身体的电流越来越弱，</p>
+                                <p>你的眼睛不再发光......</p>
+                            </div>
+                        </details>
+                        <div>你看到了他，他似乎是埋伏好的，朝你冲了过来，这时你决定：</div>
+                </div>
+            </details>      
+            <div>你继续像往常一样搜寻着，不知不觉中，你听到不远处有动静。原来刚刚的信号就是来自这里的。这时你决定：</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>前去救援</summary>
+        <div>
+            <details>
+                    <summary>给与还击</summary>
+                            <div>
+                                <details>
+                                        <summary>补他一枪</summary>
+                                            <div>
+                                                <p>你觉得自己有些残忍，同时也十分愧疚。</p>
+                                                <p>好不容易能够有人陪自己，却被自己...</p>
+                                                <p>就这样</p>
+                                                <p>你又仿佛陷入了轮回的空间中，再也无法脱身，</p>
+                                                <p>又如机器一般，机械地将一天，重复过了无数多遍......</p>
+                                            </div>
+                                </details>
+                                <details>
+                                        <summary>上前查看</summary>
+                                            <div>
+                                                <p>果然，这个世界只有一人了。</p>
+                                                <p>因为他是：</p>
+                                                <p>仿生机器人！</p>
+                                            </div>
+                                </details>
+                                <div>
+                                    你用你身上的先进装备跟他打了起来。<br>
+                                    但对方也不是吃素的。<br>
+                                    你们扭打到了一起。<br>
+                                    最终，你抓住机会，打中了他一枪。<br>
+                                    他已倒地不起，你决定：<br>
+                                </div>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>只是防守</summary>
+                            <div>
+                                <p>在他的猛烈进攻下，</p>
+                                <p>你最终败下阵来，</p>
+                                <p>迷糊中，他朝你走来，</p>
+                                <p>打开了你的身体，</p>
+                                <p>似乎拿出了什么。</p>
+                                <p>随着身体的电流越来越弱，</p>
+                                <p>你的眼睛不再发光......</p>
+                            </div>
+            </details>
+            <div>
+                你打开了地图，不断向信号发出地靠近着。<br>
+                看着信号离你越来越近。<br>
+                你感到有些兴奋，激动。<br>
+                又或许是恐慌？<br>
+                果然，你的担心出现了。<br>
+                他朝你冲了过来。你决定：<br>
+            </div>
+        </div>
+    </details>
+
+</div>
+</body>
+</html>
